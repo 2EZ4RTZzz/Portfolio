@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/index-dist.css" />
+    <link rel="stylesheet" href="../css/p1-dist.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/453e4b626a.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="../js/script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <title>Wyy portfolio</title>
+</head>
+
+<body>
+    <script>
+        AOS.init();
+    </script>
+    <header>
+        <div class="logo"><a href="../index.html">2ez4rtz</a></div>
+        <div class="menu">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="../index.html#about-me"><span class="number">01.</span> About</a>
+                    </li>
+                    <li>
+                        <a href="../index.html#where-worked"><span class="number">02.</span> Work</a>
+                    </li>
+                    <li>
+                        <a href="../index.html#projects"><span class="number">03.</span> Showcase</a>
+                    </li>
+                    <li>
+                        <a href="../index.html#other-projects"><span class="number">04.</span> Projects</a>
+                    </li>
+                    <li>
+                        <a href="../index.html#contact-me"><span class="number">04.</span> Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="hamberger">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </header>
+
+
+
+    <div id="me" >
+        <div>
+            <div>
+                <p class="MynameFontSize">Childhood memory</p>
+            </div>
+            <h1>
+                Happy Nanji<br />
+                2D, side-scrolling role-playing game
+            </h1>
+            <p>
+                This a side-scrolling 2D cartoon-style game in which the protagonist progresses through fights,
+                challenges of varying difficulty levels, and eventually kills bosses to achieve success in the game. The
+                idea for the game was inspired by a game called"MapleStory" I loved to play as a kid, and it was my
+                first game as a freshman at SFU.
+            </p>
+
+            <div class="btn"><a href="#ProjectImage">Check out my projects!</a></div>
+        </div>
+    </div>
+
+
+    <div id="ProjectImage">
+        <section class="container_middle" data-aos="zoom-in">
+
+            <div>
+                <h2>Concept:</h2>
+                <p>This game's concept is about a Horizontal 2D cartoon style upgrade class game. </p>
+                <h2>How To play:</h2>
+
+                <p>
+                    For the movement, you can press the arrow key to make the character move, press the Space bar can
+                    control the character to attack (shot the ammo) to the enemy, and the damage will increase based on
+                    the character's level. There will be two bars at the top left of the screen, a red bar for HP and a
+                    green bar for EXP. The right bar includes the current exp state, current attack damage, and current
+                    level.
+                </p>
+                <h2>About the spells</h2>
+                <p>
+                    Skill1 . press Q to increase the 20% extra attack damage in 10 secs
+                    Skill2. Press F to recovery 2hp , each level can only cast 3 times.</p>
+            </div>
+
+
+            <div>
+                <img class="imgMiddle" alt="middle image of plant" src="../images/167-P5.png">
+            </div>
+
+
+        </section>
+
+
+
+        <section class="container_middle2" data-aos="zoom-in-down">
+            <div>
+                <h2>Problem:</h2>
+                <p>1. There are many bugs in the game, some of which cause the character to get stuck, so I finally
+                    solved the bugs through a lot of study and testing. </p>
+                <P>
+                    2. Basic knowledge about how to code collision and make the platform to make sure the player can
+                    stay on the correct location on the platform. Game Balance issue, Player level up problem , player
+                    attack correct position..etc
+                </P>
+
+                <h2>
+                    Design process:
+                </h2>
+
+                <p>
+                    Week1. Start making the game uml and draw all the game images.
+                    Week2. Working on the each class code and test it
+                    Week3. Working on the challenge part(for example: collision , amno check , speed , platform issue)
+                    Week4. Add background songs, attack songs , add attack effect , level up effect..etc
+                </p>
+                <div class="github-icon">
+                    <a href="https://github.com/2EZ4RTZzz/MapleStoryForNoob"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.youtube.com/watch?v=rmvIAPt7PJg&t=84s&ab_channel=rtz"><i
+                            class="	fa fa-youtube-play"></i></a>
+                </div>
+            </div>
+
+            <div>
+                <img class="imgMiddle" alt="middle image of plant" src="../images/167-P2.png">
+            </div>
+
+        </section>
+    </div>
+
+    <div class="container" data-aos="flip-left">
+        <!-- Automatic Slideshow Images -->
+        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+            <!-- Indicators/dots -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
+
+            </div>
+
+            <!-- The slideshow/carousel -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="../images/167-P1.png" alt="startPage" class="d-block" style="width:100%">
+                    <div class="carousel-caption">
+                        <h3>Game intro page</h3>
+                        <p>Rules and how to play it</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="../images/167-P2.png" alt="Chicago" class="d-block" style="width:100%">
+                    <div class="carousel-caption">
+                        <h3>Game level 1</h3>
+                        <p>Lower level enemy</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="../images/167-P3.png" alt="New York" class="d-block" style="width:100%">
+                    <div class="carousel-caption">
+                        <h3>Game Level2</h3>
+                        <p>middine level enemy</p>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="../images/167-P4.png" alt="New York" class="d-block" style="width:100%">
+                    <div class="carousel-caption">
+                        <h3>Game Level3</h3>
+                        <p>the guards to enter in the boss room</p>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="../images/167-P5.png" alt="New York" class="d-block" style="width:100%">
+                    <div class="carousel-caption">
+                        <h3>Boss Room</h3>
+                        <p>Kill the boss win the game</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Left and right controls/icons -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+
+        
+
+        <footer>
+            
+            <p>Designed & Built by Yuyao Wang</p>
+        </footer>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    </div>
+    <div class="social-Media">
+        <a href="https://github.com/2EZ4RTZzz"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.instagram.com/2ez_4rtz_/"><i class="fa-brands fa-square-instagram"></i></a>
+        <a href="https://www.facebook.com/profile.php?id=100006687754563"><i
+                class="fa-brands fa-facebook-f"></i></a>
+        <a href="https://steamcommunity.com/id/573608/"><i class="fa fa-steam" aria-hidden="true"></i></a>
+        <a href="https://www.youtube.com/channel/UCbAEtRvvXEyUnGuul_mwqFA"><i class="fa-brands fa-youtube"></i></a>
+    </div>
+    <div class="my-email">
+        <a href="mailto:yuyao_wang@sfu.ca">yuyao_wang@sfu.ca</a>
+    </div>
+</body>
+
+</html>
